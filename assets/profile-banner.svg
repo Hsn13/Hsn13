@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title description">
+  <title id="title">Hasan Khesro — Full-Stack Engineer and AI Builder</title>
+  <desc id="description">A Gulf-inspired banner in deep green, teal, and warm sand, with an abstract coastline and geometric sun.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#102c27"/>
+      <stop offset="1" stop-color="#075e58"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#47c6ae" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#47c6ae" stop-opacity=".55"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="340" rx="28" fill="url(#background)"/>
+  <circle cx="1010" cy="104" r="55" fill="#f1d7a5" opacity=".95"/>
+  <path d="M0 255c145-33 217 19 350-7s206-44 342-9 202 22 302-9 151-29 206-13v123H0z" fill="url(#water)"/>
+  <path d="M0 283c173-30 242 19 401-5s252-37 382-5 273 5 417-20v87H0z" fill="#0a4641" opacity=".85"/>
+  <path d="M0 307c180-18 288 17 438-2s270-26 415-2 239 15 347-6v43H0z" fill="#082f2c"/>
+  <path d="M870 221v-67m38 71v-92m39 88v-57m36 54v-111m39 105v-73m41 68v-49" stroke="#f1d7a5" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+  <path d="M849 229h242" stroke="#f1d7a5" stroke-width="3" opacity=".38"/>
+  <text x="76" y="120" fill="#f5e5c5" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif" font-size="54" font-weight="700" letter-spacing="-1">HASAN KHESRO</text>
+  <text x="80" y="166" fill="#b7e9dc" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif" font-size="23" font-weight="600" letter-spacing="3">FULL-STACK ENGINEER  ·  AI BUILDER</text>
+  <text x="80" y="207" fill="#e6ede7" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif" font-size="17">Building thoughtful software from first sketch to shipped product.</text>
+  <rect x="80" y="235" width="116" height="3" rx="2" fill="#f1d7a5"/>
+  <text x="80" y="270" fill="#d7e9e1" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif" font-size="15" letter-spacing="2">BAHRAIN  /  PRODUCT  /  ENGINEERING</text>
+</svg>
