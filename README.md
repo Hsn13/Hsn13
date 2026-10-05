@@ -83,7 +83,7 @@ I turn ideas into thoughtful web experiences—from full-stack products to usefu
 
 </div>
 
-*Live cards use GitHub data: commit totals are all-time (not just the past year); language shares are calculated from code in public repositories, not from commit history.*
+<img width="2000" height="300" alt="The Great Copilot Journey email banner" src="https://github.com/user-attachments/assets/0742dbca-a093-4eb6-b964-c3957b725850" />
 
 <div align="center">
 
