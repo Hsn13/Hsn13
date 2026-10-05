@@ -78,10 +78,12 @@ I turn ideas into thoughtful web experiences—from full-stack products to usefu
 
 <div align="center">
 
-![Hasan's GitHub stats](https://github-readme-stats.vercel.app/api?username=Hsn13&show_icons=true&hide_border=true&bg_color=102c27&title_color=f1d7a5&text_color=e6ede7&icon_color=47c6ae)
+![Hasan's GitHub stats](https://github-readme-stats.vercel.app/api?username=Hsn13&show_icons=true&include_all_commits=true&hide_border=true&bg_color=102c27&title_color=f1d7a5&text_color=e6ede7&icon_color=47c6ae)
 ![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Hsn13&layout=compact&hide_border=true&bg_color=102c27&title_color=f1d7a5&text_color=e6ede7)
 
 </div>
+
+*Live cards use GitHub data: commit totals are all-time (not just the past year); language shares are calculated from code in public repositories, not from commit history.*
 
 <div align="center">
 
