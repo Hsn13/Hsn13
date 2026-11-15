@@ -38,11 +38,55 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: "true"
 
+      - name: Generate contribution calendar card
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api graphql -f query='
+            query($login: String!) {
+              user(login: $login) {
+                contributionsCollection {
+                  startedAt
+                  endedAt
+                  contributionCalendar { totalContributions }
+                }
+              }
+            }' -f login="$GITHUB_REPOSITORY_OWNER" > "$RUNNER_TEMP/contributions.json"
+          python3 - <<'PY'
+          import json
+          import os
+          from datetime import date
+          from pathlib import Path
+
+          response = json.loads(
+              (Path(os.environ["RUNNER_TEMP"]) / "contributions.json").read_text()
+          )
+          collection = response["data"]["user"]["contributionsCollection"]
+          total = collection["contributionCalendar"]["totalContributions"]
+          if type(total) is not int or total < 0:
+              raise ValueError("GitHub returned an invalid contribution total")
+          start = date.fromisoformat(collection["startedAt"][:10])
+          end = date.fromisoformat(collection["endedAt"][:10])
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="495" height="130" viewBox="0 0 495 130" role="img" aria-labelledby="title description">
+            <title id="title">Total contributions (last year)</title>
+            <desc id="description">{total:,} contributions from GitHub's contribution calendar, {start} through {end}.</desc>
+            <rect width="495" height="130" rx="5" fill="#102c27"/>
+            <g font-family="Segoe UI, Ubuntu, sans-serif">
+              <text x="25" y="33" fill="#f1d7a5" font-size="18" font-weight="600">Total contributions (last year)</text>
+              <text x="25" y="78" fill="#47c6ae" font-size="32" font-weight="700">{total:,}</text>
+              <text x="25" y="108" fill="#e6ede7" font-size="12">GitHub calendar: {start} to {end}</text>
+            </g>
+          </svg>
+          '''
+          Path("profile/contributions.svg").write_text(svg, encoding="utf-8")
+          print(f"Generated contribution calendar card: {total:,}")
+          PY
+
       - name: Commit updated cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/stats.svg profile/top-langs.svg
+          git add profile/stats.svg profile/top-langs.svg profile/contributions.svg
           if git diff --cached --quiet; then
             exit 0
           fi
