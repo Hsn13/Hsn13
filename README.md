@@ -10,11 +10,11 @@
 
 ---
 
-### Niche I'm exploring
+### What I build
 
-**AI-assisted discovery for Gulf travel & commerce.** I’m interested in how regional context can make trip planning and shopping experiences more useful.
+I build full-stack web apps and explore practical AI features—turning ideas into useful, polished experiences.
 
-**Focused toolkit** · TypeScript · Next.js · Gemini API · RAG · LangChain
+**Tools I use** · JavaScript · TypeScript · React · Next.js · Node.js · Gemini API · RAG
 
 ### GitHub, at a glance
 

@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title description">
-  <title id="title">Hasan Khesro — AI product builder for Gulf travel and commerce</title>
+  <title id="title">Hasan Khesro — Full-stack engineer and AI builder</title>
   <desc id="description">A minimal deep-green banner with warm sand and sea-glass accents, inspired by Bahrain's coastline.</desc>
   <rect width="1200" height="280" rx="20" fill="#102c27"/>
   <rect x="72" y="72" width="4" height="136" rx="2" fill="#f1d7a5"/>
   <text x="104" y="126" fill="#f5e5c5" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif" font-size="48" font-weight="650" letter-spacing="-1.5">HASAN KHESRO</text>
-  <text x="106" y="166" fill="#b7e9dc" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif" font-size="19" font-weight="500" letter-spacing="1.5">AI FOR GULF TRAVEL  ·  COMMERCE</text>
-  <text x="106" y="204" fill="#d7e9e1" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif" font-size="16">Exploring locally grounded, useful digital discovery.</text>
+  <text x="106" y="166" fill="#b7e9dc" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif" font-size="19" font-weight="500" letter-spacing="1.5">FULL-STACK ENGINEER  ·  PRACTICAL AI</text>
+  <text x="106" y="204" fill="#d7e9e1" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif" font-size="16">Building thoughtful web experiences with practical AI.</text>
   <circle cx="1030" cy="92" r="26" fill="#f1d7a5" opacity=".9"/>
   <path d="M906 186c45-20 87-20 132 0s87 20 132 0" fill="none" stroke="#47c6ae" stroke-width="2" opacity=".72"/>
   <path d="M906 202c45-20 87-20 132 0s87 20 132 0" fill="none" stroke="#47c6ae" stroke-width="2" opacity=".36"/>
