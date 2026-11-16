@@ -10,19 +10,11 @@
 
 ---
 
-### Selected work
+### Niche I'm exploring
 
-- **[My Portfolio](https://github.com/Hsn13/MyPortfolio)** — A personal portfolio and product site built with Next.js, TypeScript, Tailwind CSS, and Framer Motion. [Live site ↗](https://my-portfolio-six-wheat-43.vercel.app)
-- **[Re-Wear Bahrain](https://github.com/Hsn13/Re-Wear-Bahrain_Frontend)** — A peer-to-peer clothing swap experience with an Eco-Credit system. [Frontend](https://github.com/Hsn13/Re-Wear-Bahrain_Frontend) · [Backend](https://github.com/Hsn13/Re-Wear-Bahrain_Backend)
-- **[Roamwise](https://github.com/Hsn13/ai-travel-assistant-demo)** — An AI travel-planning demo that turns preferences into a day-by-day itinerary.
-- **[VERDÉ](https://github.com/Hsn13/verde-ai-commerce-demo)** — An editorial storefront with a local shopping assistant, interactive cart, and wishlist.
-- **[Sudoku](https://github.com/Hsn13/Sudoku-Project)** — A Go project exploring puzzle solving and algorithms.
+**AI-assisted discovery for Gulf travel & commerce.** I’m interested in how regional context can make trip planning and shopping experiences more useful.
 
-### Toolkit
-
-**Engineering** · JavaScript · TypeScript · React · Next.js · Node.js · Express · PHP · Java · C#  
-**AI & data** · LLMs · RAG · LangChain · Gemini API · scikit-learn · Pandas · NumPy  
-**Building & shipping** · Git · AWS · Vercel · Render · OutSystems · Agile product delivery
+**Focused toolkit** · TypeScript · Next.js · Gemini API · RAG · LangChain
 
 ### GitHub, at a glance
 
