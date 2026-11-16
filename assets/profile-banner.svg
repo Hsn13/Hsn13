@@ -1,26 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title description">
-  <title id="title">Hasan Khesro — Full-Stack Engineer and AI Builder</title>
-  <desc id="description">A Gulf-inspired banner in deep green, teal, and warm sand, with an abstract coastline and geometric sun.</desc>
-  <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#102c27"/>
-      <stop offset="1" stop-color="#075e58"/>
-    </linearGradient>
-    <linearGradient id="water" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#47c6ae" stop-opacity=".1"/>
-      <stop offset="1" stop-color="#47c6ae" stop-opacity=".55"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="340" rx="28" fill="url(#background)"/>
-  <circle cx="1010" cy="104" r="55" fill="#f1d7a5" opacity=".95"/>
-  <path d="M0 255c145-33 217 19 350-7s206-44 342-9 202 22 302-9 151-29 206-13v123H0z" fill="url(#water)"/>
-  <path d="M0 283c173-30 242 19 401-5s252-37 382-5 273 5 417-20v87H0z" fill="#0a4641" opacity=".85"/>
-  <path d="M0 307c180-18 288 17 438-2s270-26 415-2 239 15 347-6v43H0z" fill="#082f2c"/>
-  <path d="M870 221v-67m38 71v-92m39 88v-57m36 54v-111m39 105v-73m41 68v-49" stroke="#f1d7a5" stroke-width="5" stroke-linecap="round" opacity=".55"/>
-  <path d="M849 229h242" stroke="#f1d7a5" stroke-width="3" opacity=".38"/>
-  <text x="76" y="120" fill="#f5e5c5" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif" font-size="54" font-weight="700" letter-spacing="-1">HASAN KHESRO</text>
-  <text x="80" y="166" fill="#b7e9dc" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif" font-size="23" font-weight="600" letter-spacing="3">FULL-STACK ENGINEER  ·  AI BUILDER</text>
-  <text x="80" y="207" fill="#e6ede7" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif" font-size="17">Building thoughtful software from first sketch to shipped product.</text>
-  <rect x="80" y="235" width="116" height="3" rx="2" fill="#f1d7a5"/>
-  <text x="80" y="270" fill="#d7e9e1" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif" font-size="15" letter-spacing="2">BAHRAIN  /  PRODUCT  /  ENGINEERING</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title description">
+  <title id="title">Hasan Khesro — Full-stack engineer and AI builder</title>
+  <desc id="description">A minimal deep-green banner with warm sand and sea-glass accents, inspired by Bahrain's coastline.</desc>
+  <rect width="1200" height="280" rx="20" fill="#102c27"/>
+  <rect x="72" y="72" width="4" height="136" rx="2" fill="#f1d7a5"/>
+  <text x="104" y="126" fill="#f5e5c5" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif" font-size="48" font-weight="650" letter-spacing="-1.5">HASAN KHESRO</text>
+  <text x="106" y="166" fill="#b7e9dc" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif" font-size="19" font-weight="500" letter-spacing="1.5">FULL-STACK ENGINEER  ·  PRACTICAL AI</text>
+  <text x="106" y="204" fill="#d7e9e1" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif" font-size="16">Thoughtful products, from first sketch to shipped experience.</text>
+  <circle cx="1030" cy="92" r="26" fill="#f1d7a5" opacity=".9"/>
+  <path d="M906 186c45-20 87-20 132 0s87 20 132 0" fill="none" stroke="#47c6ae" stroke-width="2" opacity=".72"/>
+  <path d="M906 202c45-20 87-20 132 0s87 20 132 0" fill="none" stroke="#47c6ae" stroke-width="2" opacity=".36"/>
+  <text x="906" y="236" fill="#d7e9e1" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif" font-size="12" letter-spacing="2">BAHRAIN</text>
 </svg>
