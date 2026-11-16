@@ -76,6 +76,8 @@ I turn ideas into thoughtful web experiences—from full-stack products to usefu
 
 ## ✦ GitHub, at a glance
 
+<p><strong>Quick skim:</strong> JavaScript leads my code mix; the stats below capture commits, pull requests, and recent contributions.</p>
+
 <div align="center">
 
 ![Hasan's GitHub stats](./profile/stats.svg)
