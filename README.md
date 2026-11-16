@@ -1,4 +1,6 @@
-![Hasan Khesro — Full-stack engineer and AI builder](assets/profile-banner.svg)
+![Hasan Khesro — Full-stack engineer and AI builder. Animated coastal illustration.](assets/profile-banner-animated.gif)
+
+<sub><a href="assets/profile-banner.svg">View static banner</a></sub>
 
 <p align="center">
   <a href="https://my-portfolio-six-wheat-43.vercel.app">Portfolio</a> ·
