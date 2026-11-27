@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="495" height="130" viewBox="0 0 495 130" role="img" aria-labelledby="title description">
   <title id="title">Total contributions (last year)</title>
-  <desc id="description">412 contributions from GitHub's contribution calendar, 2025-11-23 through 2026-11-26.</desc>
+  <desc id="description">412 contributions from GitHub's contribution calendar, 2025-11-23 through 2026-11-27.</desc>
   <rect width="495" height="130" rx="5" fill="#102c27"/>
   <g font-family="Segoe UI, Ubuntu, sans-serif">
     <text x="25" y="33" fill="#f1d7a5" font-size="18" font-weight="600">Total contributions (last year)</text>
     <text x="25" y="78" fill="#47c6ae" font-size="32" font-weight="700">412</text>
-    <text x="25" y="108" fill="#e6ede7" font-size="12">GitHub calendar: 2025-11-23 to 2026-11-26</text>
+    <text x="25" y="108" fill="#e6ede7" font-size="12">GitHub calendar: 2025-11-23 to 2026-11-27</text>
   </g>
 </svg>
